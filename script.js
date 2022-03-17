@@ -4,3 +4,9 @@ function askname() {
 }
 
 alert(`Hello, ${askname()}!`)
+
+function asktemp() {
+    var questiontemp = prompt("What is the temperature?")
+    return questiontemp
+}
+
