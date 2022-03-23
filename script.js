@@ -14,28 +14,45 @@ function asktemp() {
     return questiontemp
 }
 
+// function domath() {
 
-function choose() {
+// }
+
+
+function bigquestion(p, l) {
     var choose = prompt("F for fahrenheit to celsius, C for celsius to fahrenheit.")
-    return choose
-}
-
-// choose()
-
-if (choose == "F") {
-    function ctof(temp1) {
-        var math1 = ((temp1-32)*5/9)
-        return math1
-        console.log(ctof(asktemp()))
-    }
-}
-
-console.log(ctof(asktemp()))
+    
 
 
-// function ctof() {
-//     if (choose == "F") {
-//         var math1 = ((questiontemp+32)*5/9)
-//     }
+        if (choose == "F")   
+            var math1 = ((asktemp()-32)*5/9)
+            alert(`That is ${math1} degrees fahrenheit.`)
+        
+    
+
+            
+}   
+
+
+bigquestion()
+
+
+
+
+
+
+
+
+
+
+
+// function ctof(temp1) {
+//     var math1 = ((temp1-32)*5/9)
 //     return math1
 // }
+
+// function saystatement(y) {
+//     alert(`That is ${y} degrees fahrenheit.`)
+// }
+
+// saystatement(ctof(asktemp()))
